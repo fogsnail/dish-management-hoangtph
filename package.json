@@ -1,5 +1,5 @@
 {
-  "homepage ": "http://huyhoangnd237.github.io/hoangtph-fresher-test",
+  "homepage ": "http://huyhoangnd237.github.io/dish-management-hoangtph",
   "name": "hoangtph-fresher-test",
   "version": "0.1.0",
   "private": true,
@@ -18,7 +18,7 @@
   },
   "scripts": {
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build -b master",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
